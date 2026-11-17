@@ -1,40 +1,29 @@
-# INTELLIEMO: Enterprise-Grade Text Emotion Intelligence & Explainable NLP Engine
-
 <div align="center">
 
-```
-========================================================================================
-                          VISHWAKARMA UNIVERSITY, PUNE
-                       Faculty of Science & Technology
-                         Department of AI/AIML/AIDS
-========================================================================================
-```
+<img src="vu_logo.png" alt="Vishwakarma University Logo" width="380" />
 
-### **A PROJECT REPORT ON**
+<br/>
+
 # **INTELLIEMO: Enterprise-Grade Text Emotion Intelligence & Explainable NLP Engine**
 
-**Submitted in partial fulfillment of the requirements for the degree of**  
-**S. Y. B. Tech (Artificial Intelligence & Machine Learning / Data Science)**  
-**Project 1 [Course Code: AI2026 / Natural Language Processing & Machine Learning]**
+### **S. Y. B. Tech (Department of AI/AIML/AIDS)**  
+### **Project 1 [Natural Language Processing & Machine Learning]**
 
 <br/>
 
-**Submitted by:**  
-### **Raunak Rajput**  
-**Student Registration Number (SRN):** `[Your SRN Here]`  
-**Email:** `raunak.rajput25@vupune.ac.in`  
+### **By**  
+**Raunak Rajput (31252544)**  
+**Ayush Vishwakarma**  
+**Vipul Bhamare**  
 
 <br/>
 
-**Under the Guidance of:**  
-Faculty Mentor / Guide, Department of AI/AIML/AIDS  
+**2026 – 2027**  
 
-<br/>
-
-**Academic Year: 2026 – 2027**  
+**Pursuing in**  
 **Department of AI/AIML/AIDS**  
 **Faculty of Science & Technology**  
-**Vishwakarma University, Pune - 411048, Maharashtra, India**
+**Vishwakarma University, Pune**
 
 </div>
 
@@ -44,7 +33,12 @@ Faculty Mentor / Guide, Department of AI/AIML/AIDS
 
 ## **Certificate of Approval**
 
-This is to certify that the project entitled **"INTELLIEMO: Enterprise-Grade Text Emotion Intelligence & Explainable NLP Engine"** submitted by **Raunak Rajput** (SRN: `[Your SRN Here]`) is a bonafide record of work carried out by him under the supervision and guidance of the Department of AI/AIML/AIDS, Faculty of Science & Technology, Vishwakarma University, Pune, in partial fulfillment of the requirements for the award of the Degree of **Bachelor of Technology (B. Tech) in Artificial Intelligence & Machine Learning**.
+This is to certify that the project entitled **"INTELLIEMO: Enterprise-Grade Text Emotion Intelligence & Explainable NLP Engine"** submitted by:
+- **Raunak Rajput (31252544)**
+- **Ayush Vishwakarma**
+- **Vipul Bhamare**
+
+is a bonafide record of work carried out by them under the supervision and guidance of the Department of AI/AIML/AIDS, Faculty of Science & Technology, Vishwakarma University, Pune, in partial fulfillment of the requirements for the award of the Degree of **Bachelor of Technology (B. Tech) in Artificial Intelligence & Machine Learning**.
 
 <br/><br/>
 
