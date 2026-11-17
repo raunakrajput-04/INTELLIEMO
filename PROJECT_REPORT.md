@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="vu_logo.png" alt="Vishwakarma University Logo" width="380" />
+<img src="vu_logo.png" width="380" />
 
 <br/>
 
