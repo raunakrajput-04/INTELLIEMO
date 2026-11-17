@@ -54,40 +54,11 @@ Department of AI/AIML/AIDS &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp
 
 | Sr. No. | Content | Page No. |
 | :---: | :--- | :---: |
-| **1** | **Introduction** | **1** |
-| 1.1 | Background & Motivation | 1 |
-| 1.2 | Problem Statement | 2 |
-| 1.3 | Project Objectives & Scope | 2 |
-| 1.4 | Emotion Taxonomy (6 Core Dimensions) | 3 |
-| **2** | **Literature Survey & Theoretical Background** | **4** |
-| 2.1 | Limitations of Traditional Sentiment Analysis | 4 |
-| 2.2 | Transformer Architecture (DistilBERT) | 4 |
-| 2.3 | Discourse Analysis & Clause-Level Sentiment Transitions | 5 |
-| 2.4 | Explainable AI (XAI) & Token Saliency | 5 |
-| **3** | **System Architecture & Methodology** | **6** |
-| 3.1 | High-Level System Architecture | 6 |
-| 3.2 | Text Preprocessing & Feature Extraction Pipeline | 7 |
-| 3.3 | Fine-Tuned Transformer Classification Model | 8 |
-| 3.4 | Discourse-Aware Multi-Emotion Reasoning Engine | 8 |
-| 3.5 | Vectorized Token-Drop Saliency Attribution | 9 |
-| 3.6 | Full-Stack REST API & Telemetry Infrastructure | 10 |
-| **4** | **Key Source Code & Implementation** | **11** |
-| 4.1 | Text Normalization & Preprocessing Module (`preprocessing.py`) | 11 |
-| 4.2 | Transformer Model Loader & Sequence Inference (`model_loader.py`) | 13 |
-| 4.3 | Discourse & Multi-Emotion Decomposition (`emotion_service.py`) | 15 |
-| 4.4 | Vectorized Token-Drop Attribution Module (`explainability.py`) | 18 |
-| 4.5 | FastAPI REST Endpoints & Schema Validation (`emotion.py`) | 20 |
-| **5** | **Results & Experimental Evaluation** | **23** |
-| 5.1 | Experimental Setup & Benchmark Dataset | 23 |
-| 5.2 | Comparative Model Performance (DistilBERT vs. Baselines) | 23 |
-| 5.3 | Per-Class Performance Breakdown | 24 |
-| 5.4 | Confusion Matrix Analysis | 25 |
-| 5.5 | Discourse & Mixed Emotion Case Studies | 26 |
-| 5.6 | Explainable AI (XAI) Token Attribution Outputs | 28 |
-| **6** | **Conclusion & Future Scope** | **29** |
-| 6.1 | Summary of Achievements | 29 |
-| 6.2 | Future Enhancements | 29 |
-| **7** | **References** | **30** |
+| **1** | **Introduction & System Architecture** | **3** |
+| **2** | **Key Source Code & Implementation** | **5** |
+| **3** | **Results & Experimental Evaluation** | **7** |
+| **4** | **Conclusion & Future Scope** | **8** |
+| **5** | **References** | **8** |
 
 ---
 
