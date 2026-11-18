@@ -607,7 +607,35 @@ Surprise (66)      [    2      8      0      2      8      46   ]  -> 69.23% Rec
 
 - **Analysis:** The highest cross-class bleed occurs between **Love** and **Joy** (21 love instances predicted as joy) and between **Surprise** and **Fear** (8 instances). This aligns with psychological valence theory, where surprise is often an antecedent state to fear or delight.
 
-### 5.5 Discourse & Mixed Emotion Case Studies
+### 5.5 Live Deployed Web Application & Output Visualizations
+
+The INTELLIEMO emotion intelligence system was packaged and deployed as a live full-stack web application. The frontend was built with React 19, TypeScript, and modern Tailwind CSS, integrated with the FastAPI backend engine to provide sub-15ms inference latency, real-time token attribution mapping, and interactive discourse telemetry. Below are the actual output visualizations captured from the live deployed platform:
+
+#### 1. Live Web Application Hero & Inference Console
+<div align="center">
+  <img src="output_ui_landing.png" alt="Figure 5.1: INTELLIEMO Studio — Live Web Application Landing Page & Inference Console" width="700" />
+  <p><em>Figure 5.1: INTELLIEMO Studio live hero interface and inference console featuring real-time token sensitivity mapping, discourse shift trajectory tracking, and sub-15ms inference latency.</em></p>
+</div>
+
+<br/>
+
+#### 2. Enterprise Performance & Telemetry Dashboard
+<div align="center">
+  <img src="output_ui_benchmarks.png" alt="Figure 5.2: Live Platform Engineering Benchmarks" width="700" />
+  <p><em>Figure 5.2: Live platform engineering telemetry dashboard demonstrating 92.7% Macro F1 Score, sub-15ms inference latency, and 100% offline air-gapped data privacy.</em></p>
+</div>
+
+<br/>
+
+#### 3. Calibrated 6+1 Emotion Dimensions Taxonomy Suite
+<div align="center">
+  <img src="output_ui_taxonomy.png" alt="Figure 5.3: Live Interactive 6+1 Emotion Dimensions" width="700" />
+  <p><em>Figure 5.3: Interactive calibrated 6+1 emotion dimensions (Joy, Sadness, Anger, Fear, Love, Surprise, Neutral) with benchmark sentence validation and real-time live engine testing.</em></p>
+</div>
+
+<br/>
+
+### 5.6 Discourse & Mixed Emotion Case Studies
 
 #### Case Study 1: Simple High-Confidence Emotion
 - **Input Text:** `"I received my university scholarship today and I am so grateful and excited!"`

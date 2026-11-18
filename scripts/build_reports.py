@@ -89,6 +89,29 @@ def add_bullet(doc, title, body):
     r_body.font.color.rgb = RGBColor(50, 50, 50)
     return p
 
+def add_figure(doc, img_path, caption):
+    img_file = Path(img_path)
+    if not img_file.exists():
+        print(f"Warning: image {img_file} not found")
+        return
+    p_img = doc.add_paragraph()
+    p_img.alignment = WD_ALIGN_PARAGRAPH.CENTER
+    p_img.paragraph_format.space_before = Pt(8)
+    p_img.paragraph_format.space_after = Pt(2)
+    p_img.paragraph_format.keep_with_next = True
+    run = p_img.add_run()
+    run.add_picture(str(img_file), width=Inches(5.8))
+    
+    p_cap = doc.add_paragraph()
+    p_cap.alignment = WD_ALIGN_PARAGRAPH.CENTER
+    p_cap.paragraph_format.space_before = Pt(2)
+    p_cap.paragraph_format.space_after = Pt(8)
+    r_cap = p_cap.add_run(caption)
+    r_cap.font.name = "Georgia"
+    r_cap.font.size = Pt(9.5)
+    r_cap.font.italic = True
+    r_cap.font.color.rgb = RGBColor(60, 60, 60)
+
 def add_code_block(doc, code_str, filename=""):
     if filename:
         p_fn = doc.add_paragraph()
@@ -204,9 +227,9 @@ def build_docx():
     index_data = [
         ("1", "Introduction & System Architecture", "3"),
         ("2", "Key Source Code & Implementation", "5"),
-        ("3", "Results & Experimental Evaluation", "7"),
-        ("4", "Conclusion & Future Scope", "8"),
-        ("5", "References", "8")
+        ("3", "Results, Output & Live Platform Deployment", "7"),
+        ("4", "Conclusion & Future Scope", "9"),
+        ("5", "References", "9")
     ]
     
     # Resize rows
@@ -394,7 +417,7 @@ def analyze_text(request: AnalyzeTextRequest, db: Session = Depends(get_db)):
     # ------------------------------------------------------------------
     doc.add_page_break()
 
-    add_section_header(doc, "3. Experimental Results & Benchmarks:")
+    add_section_header(doc, "3. Experimental Results, Output & Live Platform Deployment:")
     
     add_heading(doc, "3.1 Comparative Benchmark Matrix", level=2)
     add_body_p(doc, "Evaluated across 2,000 holdout test samples from the dair-ai/emotion benchmark corpus:")
@@ -473,7 +496,29 @@ def analyze_text(request: AnalyzeTextRequest, db: Session = Depends(get_db)):
 
     doc.add_paragraph().paragraph_format.space_after = Pt(6)
 
-    add_heading(doc, "3.3 Discourse & Explainability Case Studies", level=2)
+    # 3.3 LIVE OUTPUT VISUALIZATIONS
+    add_heading(doc, "3.3 Live Deployed Web Application & Output Visualizations", level=2)
+    add_body_p(doc, "The INTELLIEMO emotion intelligence system was packaged and deployed as a full-stack web application. The frontend was built with React 19, TypeScript, and modern Tailwind CSS, integrated with the FastAPI backend engine to provide sub-15ms inference latency, real-time token attribution mapping, and interactive discourse telemetry. Below are the actual output visualizations captured from the live deployed platform:")
+
+    add_figure(
+        doc,
+        PROJECT_ROOT / "output_ui_landing.png",
+        "Figure 3.1: INTELLIEMO Studio — Live Web Application Landing Page & Interactive Inference Console with Token Sensitivity Mapping"
+    )
+
+    add_figure(
+        doc,
+        PROJECT_ROOT / "output_ui_benchmarks.png",
+        "Figure 3.2: Live Platform Engineering Benchmarks (92.7% Macro F1-Score, Sub-15ms Latency, and 100% Offline Privacy Guarantee)"
+    )
+
+    add_figure(
+        doc,
+        PROJECT_ROOT / "output_ui_taxonomy.png",
+        "Figure 3.3: Live Interactive 6+1 Calibrated Emotion Dimensions Taxonomy Suite and Benchmark Sentence Testing Console"
+    )
+
+    add_heading(doc, "3.4 Discourse & Explainability Case Studies", level=2)
     add_body_p(doc, "Case 1 (Contrastive Transition Resolution): 'I was overjoyed at first, but after some time I became frustrated and anxious.'")
     add_bullet(doc, "Standard Baseline Model: ", "Collapses entirely to Joy (94.1%) due to the strong token 'overjoyed'.")
     add_bullet(doc, "INTELLIEMO Output: ", "Dominant: Anger (44.8%), Secondary: Fear (31.2%), Antecedent: Joy (18.5%). Mixed Emotion: True. Narrative: 'Transitioned from joy into anger and fear'.")
