@@ -161,7 +161,7 @@ def build_docx():
     
     # P5: S. Y. B. Tech (Dept Name)
     doc.paragraphs[5].text = ""
-    r = doc.paragraphs[5].add_run("S. Y. B. Tech (Department of AI/AIML/AIDS)")
+    r = doc.paragraphs[5].add_run("S. Y. B. Tech (Department of AIML)")
     r.font.name = "Georgia"
     r.font.size = Pt(13)
     r.font.bold = True
@@ -198,6 +198,14 @@ def build_docx():
     r3.font.size = Pt(12)
     r3.font.bold = True
     doc.paragraphs[10].alignment = WD_ALIGN_PARAGRAPH.CENTER
+
+    # P17: Department Name
+    doc.paragraphs[17].text = ""
+    r = doc.paragraphs[17].add_run("Department of AIML")
+    r.font.name = "Georgia"
+    r.font.size = Pt(13)
+    r.font.bold = True
+    doc.paragraphs[17].alignment = WD_ALIGN_PARAGRAPH.CENTER
 
     # P20: Add a page break right before Index to ensure Index is on Page 2
     p20 = doc.paragraphs[20]

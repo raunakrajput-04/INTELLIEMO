@@ -6,7 +6,7 @@
 
 # **INTELLIEMO: Enterprise-Grade Text Emotion Intelligence & Explainable NLP Engine**
 
-### **S. Y. B. Tech (Department of AI/AIML/AIDS)**  
+### **S. Y. B. Tech (Department of AIML)**  
 ### **Project 1 [Natural Language Processing & Machine Learning]**
 
 <br/>
@@ -21,7 +21,7 @@
 **2026 – 2027**  
 
 **Pursuing in**  
-**Department of AI/AIML/AIDS**  
+**Department of AIML**  
 **Faculty of Science & Technology**  
 **Vishwakarma University, Pune**
 
@@ -38,13 +38,13 @@ This is to certify that the project entitled **"INTELLIEMO: Enterprise-Grade Tex
 - **Ayush Vishwakarma**
 - **Vipul Bhamare**
 
-is a bonafide record of work carried out by them under the supervision and guidance of the Department of AI/AIML/AIDS, Faculty of Science & Technology, Vishwakarma University, Pune, in partial fulfillment of the requirements for the award of the Degree of **Bachelor of Technology (B. Tech) in Artificial Intelligence & Machine Learning**.
+is a bonafide record of work carried out by them under the supervision and guidance of the Department of AIML, Faculty of Science & Technology, Vishwakarma University, Pune, in partial fulfillment of the requirements for the award of the Degree of **Bachelor of Technology (B. Tech) in Artificial Intelligence & Machine Learning**.
 
 <br/><br/>
 
 __________________________ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; __________________________  
-**Project Guide / Faculty Mentor** &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; **Head of Department (AI/AIML/AIDS)**  
-Department of AI/AIML/AIDS &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Vishwakarma University, Pune  
+**Project Guide / Faculty Mentor** &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; **Head of Department (AIML)**  
+Department of AIML &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Vishwakarma University, Pune  
 
 ---
 
